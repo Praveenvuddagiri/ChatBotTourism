@@ -2,6 +2,9 @@
 
 This is an ML-powered chatbot designed to provide information and assistance related to Andaman tourism. The chatbot is trained using Natural Language Toolkit (NLTK) packages and a Feed Forward Neural Network model.
 
+## Sample
+[![Video](video_thumbnail_image_url)](https://github.com/Praveenvuddagiri/ChatBotTourism/blob/master/20230613_184526.mp4)
+
 ## Dataset
 
 The dataset used for training the chatbot consists of various question-answer pairs related to Andaman tourism. Each data entry in the dataset contains the following information:
