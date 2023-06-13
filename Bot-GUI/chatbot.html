@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="typing.css"> -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <section id="main">
+    <div id="chat-start" class="float" onclick="start()">
+
+      <img src="chatbot.gif" id="start-img">
+    </div>
+  </section>
+  <div id="chat-container">
+    <div id="chat-head">
+      <div id="title">
+        <i class="fa-solid fa-robot" id="robothead"></i>
+        Trek
+      </div>
+      <div id="close">
+        <i class="fa fa-window-close" onclick="start()" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="inner" >
+      <div class="d-flex flex-row justify-content-start mb-4">
+        <i class="fa-solid fa-robot" id="robot"></i>
+        <div class="p-3 ms-2 border c2" id="message-box">
+          <p class="small mb-0">Hello and thank you for visiting this tourism bot. What can I do for you.
+
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="d-flex flex-row justify-content-end mb-4">
+        <div class="p-3 me-2 border" id="message-box">
+          <p class="small mb-0">Thank you, I really liked it.</p>
+        </div>
+        <i class="fa-solid fa fa-user" id="robot"></i>
+      </div> -->
+
+
+    </div>
+    <div id="in-msg">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" id="user-que" placeholder="Enter message here..." />
+        <button class="input-group-text btn btn-primary" id="send-btn" onclick="send_button_clicked()"><i
+            class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        <button class="input-group-text btn" id="voice" >
+          <i class="fa-solid fa-microphone-slash" id="voiceIcon"></i>
+          <!-- <i class="fa-solid fa-microphone"></i> -->
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
