@@ -52,7 +52,7 @@ To use the chatbot, follow these steps:
 
 1. Install the required dependencies by running the following command:
    ```
-   pip install nltk django
+   pip install nltk django torch numpy
    ```
 
 2. Clone the repository and navigate to the project directory:
